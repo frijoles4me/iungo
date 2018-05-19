@@ -176,7 +176,7 @@ router.post(
         const newComment = {
           text: req.body.text,
           name: req.body.name,
-          avatar: req.user.id,
+          avatar: req.user.avatar,
           user: req.user.id
         };
 
